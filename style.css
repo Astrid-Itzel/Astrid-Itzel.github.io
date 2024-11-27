@@ -1,0 +1,12 @@
+header{
+    background-color: #D7DEDC;
+}
+
+.nav-item a{
+    color:#EB64F9;
+}
+
+#logo-nav{
+    height: 40px;
+    padding-inline: 15px;
+}
