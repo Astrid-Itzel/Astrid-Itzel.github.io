@@ -13,7 +13,7 @@ typewriter.typeString('Front-end developer Jr.')
     .typeString("Where there's a will, there's a way")
     .pauseFor(2500)
     //Número de caracteres que se borrarán
-    .deleteChars(7)
+    .deleteChars(3)
     .typeString('<strong>code!</strong>')
     .pauseFor(2500)
     .start();

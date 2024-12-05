@@ -1,12 +1,102 @@
-header{
-    background-color: #D7DEDC;
+* {
+    font-family: "Lato", serif;
 }
 
-.nav-item a{
-    color:#EB64F9;
+h1 {
+    font-family: "Poppins", serif;
 }
 
-#logo-nav{
+h2 {
+    font-family: "Poppins", serif;
+}
+
+p {
+    font-family: "Taviraj", serif;
+}
+
+header {
+    background-color: #360568;
+}
+
+.nav-item a {
+    color: #f9f5e3;
+}
+
+.nav-containers:hover{
+    background: #d14081;
+    color:#f9f5e3;
+}
+
+#nombreNavbar{
+    color: #f9f5e3;
+}
+
+#logo-nav {
     height: 40px;
     padding-inline: 15px;
+}
+
+#app{
+    color: #d14081 ;
+}
+#boton-cv:hover{
+    background-color: #d14081;
+    color:#f9f5e3
+}
+
+#contenedor-habilidades{
+    background-color: #f9f5e3;
+}
+
+#contenedor-testimonios{
+    background-color: #ef798a;
+}
+
+#contenedor-testimonios h2{
+    color:#f9f5e3;
+}
+
+.card{
+    background-color: #f9f5e3;
+    border: none;
+    border-radius: 150px 150px 5px 5px;
+}
+
+
+.btn-ver {
+background-color: #360568;
+border:none;
+}
+.btn-ver:hover {
+    background-color: #5b2a86;
+    border:none;
+    }
+.btn-ver a{
+   text-decoration: none;
+   color:#f9f5e3
+    }
+
+.btn-github{
+    background-color: #d14081;
+    border:none;
+}
+.btn-github:hover{
+    background-color: #ef798a;
+    border:none;
+}
+.btn-github a{
+    text-decoration: none;
+    color:#f9f5e3
+     }
+
+#contactame {
+    color:#360568;
+}
+
+#btn-contacto:hover{
+    background-color: #d14081;
+    color: #f9f5e3;
+}
+footer ul:hover{
+    color:#d14081;
 }

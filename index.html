@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Astrid Alcántar</title>
 
-  <!--Bootstrap-->
+  <!--CDN Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -16,36 +16,263 @@
   <!--Favicon para el ícono de title-->
   <link rel="shortcut icon" href="assets/logo cuadrado.png" type="image/x-icon">
 
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
   <!--Styles-->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!--Navbar-->
   <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-<img id="logo-nav" src="assets/logo png blanco lapiz.png" alt="">
-      <span class="fs-4"><img src="" alt="">Astrid Alcántar</span>
+      <img id="logo-nav" src="assets/logo png blanco lapiz.png" alt="">
+      <span class="fs-4" id="nombreNavbar"><img src="" alt="">Astrid Itzel Alcántar Zárate</span>
     </a>
 
     <ul class="nav nav-pills">
-      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Perfil</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Testimonios</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Perfil</a></li>
+      <li class="nav-item"><a href="#hanging-icons habilidades" class="nav-link nav-containers">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link nav-containers">Proyectos</a></li>
+      <li class="nav-item"><a href="#testimonios" class="nav-link nav-containers">Testimonios</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link nav-containers">Contacto</a></li>
     </ul>
   </header>
 
   <main>
-    <h1>Astrid Alcántar</h1>
-    <h2 id="app">holi</h2>
-  </main>
+    <!--hero-->
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="assets/AIAZ.png" alt="" width="350">
+        <h1 class="display-5 fw-bold text-body-emphasis">Astrid Alcántar</h1>
+        <h2 id="app">holi</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Soy Desarrolladora Front-end Jr. con experiencia en HTML, CSS, JavaScript, React, Java y
+            MySQL, enfocada en crear soluciones digitales accesibles e innovadoras que generen un impacto positivo.
+            Comprometida con el aprendizaje continuo, diseño ético y la
+            colaboración, busco transformar ideas en experiencias significativas mientras contribuyo al éxito de
+            proyectos desafiantes y accesibles.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://github.com/Astrid-Itzel/CV-AIAZ/blob/main/Front-end%20Astrid%20Itzel%20Alca%CC%81ntar%20Za%CC%81rate.pdf" target="_blank">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" id="boton-cv">Checa mi currículum</button>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="skills">
-
+    <!--Habilidades-->
+    <div id="contenedor-habilidades">
+    <div class="habilidades container px-4 py-5" id="hanging-icons habilidades">
+      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Desarrollo Front-end</h3>
+            <p>He creado sitios web responsivos, aplicando los conocimientos obtenidos durante el bootcamp de
+              Tecnolochicas. Fomentando la innovación y la inclusión a través de la tecnología</p>
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-chat-square-text px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Comunicación</h3>
+            <p>Licenciada en Ciencias de la Comunicación por la Universidad Nacional Autónoma de México. Mi profesión me
+              ha permitido conectar el aspecto técnico con el humano, que es el corazón de cualquier proyecto digital.
+            </p>
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-camera p-2"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Fotografía</h3>
+            <p>Mi formación en fotografía, me ha permitido utilizar los principios de ésta, en el diseño de interfaces y
+              páginas web para crear diseños funcionales y atractivos con una narrativa visual definida.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--Cards proyectos-->
+    <div id="contenedor-proyectos">
+    <div id="proyectos" class="proyectos container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+    <div class="album py-5 ">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex align-items-stretch">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/Aleph registro.png" alt="">
+              <div class="card-body">
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-ver"><a href=""
+                        target="_blank">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-github"><a href=""
+                        target="_blank">Github</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/clon pinterest.png" alt="">
+              <div class="card-body">
+                <p class="card-text  text-center">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-ver"><a
+                        href="https://pinterest-clon-eta.vercel.app/" target="_blank">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-github"><a
+                        href="https://github.com/Astrid-Itzel/pinterest-clon" target="_blank">Github</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text  text-center">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-ver"><a href=""
+                        target="_blank">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-github"><a href=""
+                        target="_blank">Github</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
+    <!--Carousel Testimonios-->
+    <div id="contenedor-testimonios">
+    <div id="testimonios" class="proyectos container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Testimonios</h2>
+    <div class="testimonios">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!--card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Maria del Rayo Ponce.jpeg" class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">María del Rayo Ponce</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera en Tecnolochicas Pro</h6>
+                <div class="card-body">
+                  <p class="card-text">Como compañera de Astrid durante el Bootcamp de Techonolochicas Pro, considero que es una persona dedicada y atenta que busca mejorar sus habilidades como desarrolladora Frontend. Seguramente, debido a su desempeño, se convertirá en una profesional exitosa..</p>
+                </div>
+              </div>
+              <!--fin card-->
+            </div>
+          </div>
 
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Ana Gutierrez.jpeg" class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">Ana Gutierrez</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera en Tecnolochicas Pro</h6>
+                <div class="card-body">
+                  <p class="card-text">He tenido la oportunidad de ver el trabajo de Astrid como programadora y
+                    realmente me ha impresionado. Sus habilidades técnicas y su capacidad para desarrollar soluciones
+                    efectivas son notables. Siempre entrega proyectos bien estructurados y de alta calidad. Es una
+                    profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
+                </div>
+              </div>
+              <!--fin card-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Ary Luna.jpeg" class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">Ary Luna</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Compañera en Tecnolochicas Pro</h6>
+                <div class="card-body">
+                  <p class="card-text">Tuve la gran oportunidad de compartir con Astrid en el bootcamp de Technolochicas
+                    Pro. Sin duda alguna, demostró ser una excelente desarrolladora front-end, con una notable facilidad
+                    de aprendizaje y destacando por sus magníficos diseños. Fue un placer conocerle, y espero seguir de
+                    cerca sus futuras creaciones. El futuro que le espera es asombroso.</p>
+                </div>
+              </div>
+              <!--fin card-->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+      <!--contacto-->
+      <div class="px-4 py-5 my-5 text-center contacto" id="contacto">
+        <i class="bi bi-envelope d-block mx-auto mb-4 fs-2"></i>
+        <h1 id="contactame" class="display-5 fw-bold">Contáctame</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">¡Comunícate para iniciar un nuevo proyecto de desarrollo!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="mailto:astrid.itzel.alza@gmail.com">
+              <button type="button" id="btn-contacto" class="btn btn-outline-secondary btn-lg px-4">Enviar mensaje</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://www.linkedin.com/in/astrid-itzel/" target="_blank"
+              class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"></i></a></li>
+          <li class="nav-item"><a href="https://github.com/Astrid-Itzel" target="_blank"
+              class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/astriditzel.tech/" target="_blank"
+              class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Creado por Astrid Alcántar en el bootcamp de <a
+            href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas Pro</a></p>
+      </footer>
+
+  </main>
 
   <!--Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
